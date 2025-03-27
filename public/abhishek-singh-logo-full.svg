@@ -1,0 +1,44 @@
+<svg
+  width="200"
+  height="60"
+  viewBox="0 0 200 60"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Gradient Definition -->
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#06b6d4" />  <!-- Cyan -->
+      <stop offset="100%" stop-color="#3b82f6" /> <!-- Blue -->
+    </linearGradient>
+  </defs>
+
+  <!-- Animated Text "Abhii" -->
+  <text
+    x="10"
+    y="45"
+    font-size="40"
+    font-weight="bold"
+    fill="url(#gradient)"
+    stroke="white"
+    stroke-width="2"
+    stroke-dasharray="250"
+    stroke-dashoffset="250"
+  >
+    Abhii
+    <animate
+      attributeName="stroke-dashoffset"
+      from="250"
+      to="0"
+      dur="1.5s"
+      fill="freeze"
+    />
+    <animate
+      attributeName="opacity"
+      from="0"
+      to="1"
+      dur="1s"
+      fill="freeze"
+    />
+  </text>
+</svg>
