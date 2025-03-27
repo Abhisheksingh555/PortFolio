@@ -32,6 +32,6 @@ Abhishek's portfolio is a dynamic representation of his professional journey, re
 
 ## Download
 git clone https://github.com/Abhisheksingh555/PortFolio.git
-cd PortFolio
-npm install
-npm run dev
+- cd PortFolio
+- npm install
+- npm run dev
