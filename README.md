@@ -29,3 +29,9 @@ A well-structured portfolio is crucial for:
 
 ## Conclusion
 Abhishek's portfolio is a dynamic representation of his professional journey, reflecting his passion for software development, problem-solving, and continuous learning. It is an essential tool to demonstrate expertise and attract new career opportunities.
+
+## Download
+git clone https://github.com/Abhisheksingh555/PortFolio.git
+cd PortFolio
+npm install
+npm run dev
