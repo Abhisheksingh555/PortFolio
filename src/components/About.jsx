@@ -8,24 +8,49 @@ import {
   FiServer,
   FiLayers,
   FiCloud,
-  FiDatabase
+  FiDatabase,
 } from "react-icons/fi";
 
+import myPhoto from "../assets/photo2.jpg";
 
 const About = () => {
   const skills = [
     { name: "HTML5", level: 90, icon: <FiCode className="text-blue-400" /> },
-    { name: "CSS/Tailwind", level: 85, icon: <FiLayers className="text-pink-400" /> },
+    {
+      name: "CSS/Tailwind",
+      level: 85,
+      icon: <FiLayers className="text-pink-400" />,
+    },
     { name: "React", level: 85, icon: <FiCode className="text-cyan-400" /> },
-    { name: "Node.js", level: 80, icon: <FiServer className="text-purple-400" /> },
+    {
+      name: "Node.js",
+      level: 80,
+      icon: <FiServer className="text-purple-400" />,
+    },
     { name: "Express", level: 75, icon: <FiCode className="text-blue-500" /> },
-    { name: "MongoDB", level: 75, icon: <FiDatabase className="text-green-400" /> },
-    { name: "SQL", level: 70, icon: <FiDatabase className="text-yellow-400" /> },
-    { name: "JavaScript", level: 85, icon: <FiCode className="text-yellow-300" /> },
+    {
+      name: "MongoDB",
+      level: 75,
+      icon: <FiDatabase className="text-green-400" />,
+    },
+    {
+      name: "SQL",
+      level: 70,
+      icon: <FiDatabase className="text-yellow-400" />,
+    },
+    {
+      name: "JavaScript",
+      level: 85,
+      icon: <FiCode className="text-yellow-300" />,
+    },
     { name: "Java", level: 80, icon: <FiCode className="text-red-400" /> },
     { name: "Python", level: 75, icon: <FiCode className="text-blue-600" /> },
     { name: "AWS", level: 70, icon: <FiCloud className="text-indigo-400" /> },
-    { name: "REST APIs", level: 80, icon: <FiServer className="text-teal-400" /> },
+    {
+      name: "REST APIs",
+      level: 80,
+      icon: <FiServer className="text-teal-400" />,
+    },
     { name: "CI/CD", level: 65, icon: <FiCloud className="text-gray-500" /> },
   ];
 
@@ -35,14 +60,14 @@ const About = () => {
       role: "Full Stack Developer Intern",
       company: "Coding Blocks, Delhi",
       description:
-        "Developed and optimized full-stack web applications using React.js, Node.js, and MongoDB. Built scalable backend services and implemented RESTful APIs for seamless data exchange. Enhanced application performance through database query optimization and collaborated with cross-functional teams to improve project functionality.",
+        "Built and optimized full-stack web applications using React.js, Node.js, and MongoDB. Developed RESTful APIs, improved database query efficiency, and collaborated with cross-functional teams to enhance product features.",
     },
     {
       year: "2023",
       role: "Website Developer Intern",
       company: "IIIT Prayagraj",
       description:
-        "Designed and developed user-friendly web templates for internal projects using HTML, CSS, and JavaScript. Improved website responsiveness, ensured cross-browser compatibility, and optimized asset loading for enhanced performance. Contributed to creating reusable UI components while maintaining accessibility standards.",
+        "Created responsive web templates using HTML, CSS, and JavaScript. Improved load times, ensured cross-browser compatibility, and developed reusable UI components for internal projects.",
     },
   ];
 
@@ -57,17 +82,17 @@ const About = () => {
           viewport={{ once: true }}
           className="text-center mb-20"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-red-500">
             About Me
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-blue-400 mx-auto mb-8"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-red-500 mx-auto mb-8"></div>
           <p className="text-xl md:text-2xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
-            I'm a passionate Full Stack Developer with expertise in modern web
-            technologies, dedicated to crafting exceptional digital experiences.
+            A dedicated Software Engineer fresher eager to contribute to
+            real-world projects, with hands-on experience from internships and
+            academic work in full-stack development.
           </p>
         </motion.div>
 
-        {/* Main Content */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-16">
           {/* Profile Column */}
           <motion.div
@@ -80,34 +105,39 @@ const About = () => {
             <h3 className="text-2xl font-bold text-white mb-6">
               Personal Profile
             </h3>
-
             <div className="bg-gray-800 p-8 rounded-xl shadow-lg">
               <div className="flex items-center mb-6">
-                <div className="w-24 h-24 rounded-full bg-gradient-to-br from-cyan-400 to-blue-500 p-1 mr-6">
-                  <div className="w-full h-full rounded-full bg-gray-700 flex items-center justify-center">
-                    <span className="text-white text-xl">AS</span>
+                <div className="w-24 h-24 rounded-full bg-gradient-to-br from-blue-500 to-red-500 p-1 mr-6">
+                  <div className="w-full h-full rounded-full bg-gray-700 flex items-center justify-center overflow-hidden">
+                    <img
+                      src={myPhoto}
+                      alt="Abhishek Singh"
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                 </div>
                 <div>
                   <h4 className="text-xl font-bold text-white">
                     Abhishek Singh
                   </h4>
-                  <p className="text-cyan-300">Software Developer</p>
+                  <p className="text-blue-300">Software Engineer Fresher</p>
                 </div>
               </div>
 
               <div className="space-y-4">
                 <div>
-                  <p className="text-gray-400 text-sm">LOCATION</p>
-                  <p className="text-white">Mathura, India</p>
+                  <p className="text-gray-400 text-sm">CURRENT LOCATION</p>
+                  <p className="text-white">Noida Sector 62</p>
                 </div>
                 <div>
                   <p className="text-gray-400 text-sm">EMAIL</p>
-                  <p className="text-white">abhishek.singhdkm555@gmail.com</p>
+                  <p className="text-white">
+                    abhishek.singh77777.tech@gmail.com
+                  </p>
                 </div>
                 <div>
                   <p className="text-gray-400 text-sm">PHONE</p>
-                  <p className="text-white">+91 95327 37920</p>
+                  <p className="text-white">+91 9532737920</p>
                 </div>
               </div>
 
@@ -116,7 +146,7 @@ const About = () => {
                 <div className="flex space-x-4">
                   <a
                     href="https://github.com/Abhisheksingh555"
-                    className="p-3 bg-gray-700 rounded-full hover:bg-cyan-500 transition-colors"
+                    className="p-3 bg-gray-700 rounded-full hover:bg-blue-500 transition-colors"
                   >
                     <FiGithub className="text-xl" />
                   </a>
@@ -155,22 +185,21 @@ const About = () => {
               <h3 className="text-2xl font-bold text-white">Who Am I?</h3>
               <div className="space-y-5 text-gray-300 text-lg leading-relaxed">
                 <p>
-                  I'm Abhishek Singh, a passionate software developer with a
-                  strong foundation in full-stack development. I love turning
-                  ideas into reality through clean, scalable, and efficient
-                  code.
+                  I'm Abhishek Singh, a motivated and detail-oriented Software
+                  Engineer fresher with a strong foundation in full-stack
+                  development. I enjoy transforming ideas into functional,
+                  user-friendly applications.
                 </p>
                 <p>
-                  My expertise lies in JavaScript technologies, including
-                  React.js, Node.js, Express, and MongoDB. Additionally, I have
-                  experience with cloud computing, APIs, and database
-                  management.
+                  My skills include React.js, Node.js, Express, and MongoDB,
+                  with additional experience in Java, Python, and cloud
+                  technologies. I am also familiar with API development,
+                  database management, and deploying applications to the cloud.
                 </p>
                 <p>
-                  I thrive on solving real-world problems by building dynamic
-                  and user-centric digital solutions. Constant learning and
-                  adapting to new technologies keep me motivated in this
-                  ever-evolving field.
+                  I am passionate about learning and continuously improving, and
+                  I look forward to contributing my skills to innovative
+                  projects and collaborative teams.
                 </p>
               </div>
             </div>
@@ -188,9 +217,9 @@ const About = () => {
                     viewport={{ once: true }}
                     className="relative pl-10 border-l-2 border-gray-700 pb-8 last:pb-0 last:border-0 group"
                   >
-                    <div className="absolute -left-2 top-0 w-4 h-4 rounded-full bg-gradient-to-r from-cyan-400 to-blue-500 transform group-hover:scale-125 transition-transform"></div>
+                    <div className="absolute -left-2 top-0 w-4 h-4 rounded-full bg-gradient-to-r from-blue-500 to-red-500 transform group-hover:scale-125 transition-transform"></div>
                     <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-2">
-                      <span className="text-cyan-300 font-medium">
+                      <span className="text-blue-300 font-medium">
                         {exp.year}
                       </span>
                       <span className="text-white font-bold">{exp.role}</span>
@@ -228,7 +257,7 @@ const About = () => {
                     </div>
                     <div className="w-full bg-gray-700 rounded-full h-2.5">
                       <motion.div
-                        className="h-2.5 rounded-full bg-gradient-to-r from-cyan-400 to-blue-400"
+                        className="h-2.5 rounded-full bg-gradient-to-r from-blue-500 to-red-500"
                         initial={{ width: 0 }}
                         whileInView={{ width: `${skill.level}%` }}
                         transition={{ duration: 1, delay: index * 0.1 }}

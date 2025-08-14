@@ -19,11 +19,11 @@ const Navbar = () => {
     { name: "Home", path: "/" },
     { name: "About", path: "/about" },
     { name: "Projects", path: "/projects" },
-    { name: "Contact", path: "/contact" }
+    { name: "Contact", path: "/contact" },
   ];
 
   return (
-    <motion.nav 
+    <motion.nav
       className={`fixed w-full z-50 ${
         scrolled ? "bg-gray-900/90 backdrop-blur-md" : "bg-gray-900"
       } transition-all duration-300`}
@@ -33,15 +33,15 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo with 3D effect */}
-        <motion.div
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-        >
-          <Link to="/" className="flex items-center gap-2">
+        <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+          <Link to="/" className="flex items-center gap-2 group">
             <div className="relative">
-              <div className="absolute -inset-1 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-lg blur opacity-75"></div>
-              <div className="relative px-4 py-2 bg-gray-800 rounded-lg">
-                <h1 className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+              {/* Gradient border */}
+              <div className="absolute -inset-1 bg-gradient-to-r from-blue-500 to-red-500 rounded-lg blur-sm opacity-80 group-hover:opacity-100 transition duration-300"></div>
+
+              {/* Main background */}
+              <div className="relative px-6 py-3 bg-gray-900 rounded-lg border border-transparent group-hover:scale-105 transition-transform duration-300">
+                <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-red-500 bg-clip-text text-transparent tracking-wide">
                   Abhishek Singh
                 </h1>
               </div>
