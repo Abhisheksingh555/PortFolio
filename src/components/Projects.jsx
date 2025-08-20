@@ -62,33 +62,33 @@ const Projects = () => {
       image:
         "https://github.com/Abhisheksingh555/Bootstrap-UI/blob/main/assets/preview_01.png?raw=true",
     },
-    {
-      title: "Property Rental System",
-      description:
-        "A MERN-based platform that allows homeowners to list rental properties and helps users find accommodations. Features include profile creation, listing management, user authentication, and a comment/rating system.",
-      tech: [
-        { icon: <SiReact className="text-blue-400" />, name: "React" },
-        { icon: <SiNodedotjs className="text-green-500" />, name: "Node.js" },
-        { icon: <SiExpress className="text-gray-500" />, name: "Express.js" },
-        { icon: <SiMongodb className="text-green-300" />, name: "MongoDB" },
-      ],
-      github: "#",
-      liveDemo: "#",
-      image: "/property-rental-screenshot.jpg",
-    },
-    {
-      title: "LMS Platform",
-      description:
-        "A full-featured Learning Management System with course creation, student enrollment, and progress tracking. Designed for interactive e-learning with real-time analytics.",
-      tech: [
-        { icon: <SiReact className="text-blue-400" />, name: "React" },
-        { icon: <SiNodedotjs className="text-green-500" />, name: "Node.js" },
-        { icon: <SiMongodb className="text-green-300" />, name: "MongoDB" },
-      ],
-      github: "#",
-      liveDemo: "#",
-      image: "/lms-screenshot.jpg",
-    },
+    // {
+    //   title: "Property Rental System",
+    //   description:
+    //     "A MERN-based platform that allows homeowners to list rental properties and helps users find accommodations. Features include profile creation, listing management, user authentication, and a comment/rating system.",
+    //   tech: [
+    //     { icon: <SiReact className="text-blue-400" />, name: "React" },
+    //     { icon: <SiNodedotjs className="text-green-500" />, name: "Node.js" },
+    //     { icon: <SiExpress className="text-gray-500" />, name: "Express.js" },
+    //     { icon: <SiMongodb className="text-green-300" />, name: "MongoDB" },
+    //   ],
+    //   github: "#",
+    //   liveDemo: "#",
+    //   image: "/property-rental-screenshot.jpg",
+    // },
+    // {
+    //   title: "LMS Platform",
+    //   description:
+    //     "A full-featured Learning Management System with course creation, student enrollment, and progress tracking. Designed for interactive e-learning with real-time analytics.",
+    //   tech: [
+    //     { icon: <SiReact className="text-blue-400" />, name: "React" },
+    //     { icon: <SiNodedotjs className="text-green-500" />, name: "Node.js" },
+    //     { icon: <SiMongodb className="text-green-300" />, name: "MongoDB" },
+    //   ],
+    //   github: "#",
+    //   liveDemo: "#",
+    //   image: "/lms-screenshot.jpg",
+    // },
   ];
 
   return (
