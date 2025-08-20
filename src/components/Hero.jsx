@@ -7,7 +7,7 @@ import {
   FiMail,
   FiDownload,
 } from "react-icons/fi";
-import myphoto from "../assets/Photo2.jpg";
+import myphoto from "../assets/photo2.jpg";
 
 const Hero = () => {
   const [currentRole, setCurrentRole] = useState(0);
