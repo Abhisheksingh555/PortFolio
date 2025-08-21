@@ -57,6 +57,25 @@ const Projects = () => {
         "https://github.com/LakshayD02/MERN_Job_Portal_Website/blob/main/Output-1.png?raw=true",
     },
     {
+      title: "EduStack - LMS Platform",
+      description:
+        "EduStack is a full-featured Learning Management System (LMS) that enables course creation, student enrollment, interactive learning, and progress tracking. Designed with real-time analytics, secure payments, and a modern UI for seamless e-learning experiences.",
+      tech: [
+        { icon: <SiReact className="text-blue-400" />, name: "React" },
+        { icon: <SiNodedotjs className="text-green-500" />, name: "Node.js" },
+        { icon: <SiMongodb className="text-green-400" />, name: "MongoDB" },
+        { icon: <SiExpress className="text-gray-500" />, name: "Express.js" },
+        {
+          icon: <SiTailwindcss className="text-teal-400" />,
+          name: "Tailwind CSS",
+        },
+        { icon: <FaAws className="text-orange-400" />, name: "Cloud Services" },
+      ],
+      github: "https://github.com/Abhisheksingh555/Online-Learning-Platform",
+      liveDemo: "https://edu-stack-frontend.vercel.app/",
+      image: "/assets/images/edustack-lms.jpg",
+    },
+    {
       title: "Abhii Restaurant Website",
       description:
         "A modern, responsive website showcasing flame-grilled dishes, wood-fired pizzas, and an unforgettable dining experience. Built with HTML, CSS, and Bootstrap 5, featuring clean UI, responsive design, and accessibility best practices.",
@@ -103,19 +122,6 @@ const Projects = () => {
       liveDemo: "https://abhisheksingh555-bootstrap-ui.netlify.app",
       image:
         "https://github.com/Abhisheksingh555/Bootstrap-UI/blob/main/assets/preview_01.png?raw=true",
-    },
-    {
-      title: "LMS Platform",
-      description:
-        "A full-featured Learning Management System with course creation, student enrollment, and progress tracking. Designed for interactive e-learning with real-time analytics.",
-      tech: [
-        { icon: <SiReact className="text-blue-400" />, name: "React" },
-        { icon: <SiNodedotjs className="text-green-500" />, name: "Node.js" },
-        { icon: <SiMongodb className="text-green-300" />, name: "MongoDB" },
-      ],
-      github: "#",
-      liveDemo: "#",
-      image: "/lms-screenshot.jpg",
     },
   ];
 
