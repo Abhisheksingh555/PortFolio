@@ -8,9 +8,12 @@ import {
   SiExpress,
   SiPython,
   SiJavascript,
+  SiHtml5,
+  SiBootstrap,
+  SiCss3,
+  SiFirebase,
 } from "react-icons/si";
 import { FaAws } from "react-icons/fa";
-import { SiHtml5, SiBootstrap, SiCss3 } from "react-icons/si";
 
 const Projects = () => {
   const projectData = [
@@ -26,7 +29,32 @@ const Projects = () => {
       ],
       github: "https://github.com/Abhisheksingh555/Rental-Property.git",
       liveDemo: "https://buildestate.vercel.app/",
-      image: "https://github.com/Abhisheksingh555/PortFolio/blob/main/src/assets/front-page.png?raw=true",
+      image:
+        "https://github.com/Abhisheksingh555/PortFolio/blob/main/src/assets/front-page.png?raw=true",
+    },
+    {
+      title: "JobJunction – Job Portal",
+      description:
+        "A full-stack MERN job portal that allows users to browse, filter, and apply for jobs, while employers can post and manage job listings. Features secure authentication (Email/Password + Google), pagination, and a modern responsive UI.",
+      tech: [
+        { icon: <SiReact className="text-cyan-400" />, name: "React.js" },
+        { icon: <SiNodedotjs className="text-green-600" />, name: "Node.js" },
+        { icon: <SiExpress className="text-gray-600" />, name: "Express.js" },
+        { icon: <SiMongodb className="text-green-500" />, name: "MongoDB" },
+        {
+          icon: <SiFirebase className="text-yellow-500" />,
+          name: "Firebase Auth",
+        },
+        { icon: <SiCss3 className="text-blue-500" />, name: "CSS3" },
+        {
+          icon: <SiBootstrap className="text-purple-600" />,
+          name: "Bootstrap 5",
+        },
+      ],
+      github: "https://github.com/Abhisheksingh555/Job-Portal",
+      liveDemo: "https://mern-job-portal-lakshay.vercel.app/",
+      image:
+        "https://github.com/LakshayD02/MERN_Job_Portal_Website/blob/main/Output-1.png?raw=true",
     },
     {
       title: "Abhii Restaurant Website",
@@ -142,7 +170,7 @@ const Projects = () => {
               <div className="p-6 bg-gray-800/50 backdrop-blur-sm border border-gray-700/50">
                 <p className="text-gray-300 mb-4">{project.description}</p>
 
-                <div className="flex gap-3 mb-4">
+                <div className="flex gap-3 mb-4 flex-wrap">
                   {project.tech.map((tech, i) => (
                     <div
                       key={i}
