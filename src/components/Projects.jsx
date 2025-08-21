@@ -73,7 +73,7 @@ const Projects = () => {
       ],
       github: "https://github.com/Abhisheksingh555/Online-Learning-Platform",
       liveDemo: "https://edu-stack-frontend.vercel.app/",
-      image: "/assets/images/edustack-lms.jpg",
+      image: "https://github.com/Abhisheksingh555/PortFolio/blob/main/src/assets/lms-front-page.png?raw=true",
     },
     {
       title: "Abhii Restaurant Website",
