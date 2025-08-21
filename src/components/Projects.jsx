@@ -26,7 +26,7 @@ const Projects = () => {
       ],
       github: "https://github.com/Abhisheksingh555/Rental-Property.git",
       liveDemo: "https://buildestate.vercel.app/",
-      image: "/property-rental-screenshot.jpg",
+      image: "https://github.com/Abhisheksingh555/PortFolio/blob/main/src/assets/front-page.png?raw=true",
     },
     {
       title: "Abhii Restaurant Website",
