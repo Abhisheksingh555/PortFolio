@@ -15,6 +15,20 @@ import { SiHtml5, SiBootstrap, SiCss3 } from "react-icons/si";
 const Projects = () => {
   const projectData = [
     {
+      title: "Property Rental System",
+      description:
+        "A MERN-based platform that allows homeowners to list rental properties and helps users find accommodations. Features include profile creation, listing management, user authentication, and a comment/rating system.",
+      tech: [
+        { icon: <SiReact className="text-blue-400" />, name: "React" },
+        { icon: <SiNodedotjs className="text-green-500" />, name: "Node.js" },
+        { icon: <SiExpress className="text-gray-500" />, name: "Express.js" },
+        { icon: <SiMongodb className="text-green-300" />, name: "MongoDB" },
+      ],
+      github: "https://github.com/Abhisheksingh555/Rental-Property.git",
+      liveDemo: "https://buildestate.vercel.app/",
+      image: "/property-rental-screenshot.jpg",
+    },
+    {
       title: "Abhii Restaurant Website",
       description:
         "A modern, responsive website showcasing flame-grilled dishes, wood-fired pizzas, and an unforgettable dining experience. Built with HTML, CSS, and Bootstrap 5, featuring clean UI, responsive design, and accessibility best practices.",
@@ -61,20 +75,6 @@ const Projects = () => {
       liveDemo: "https://abhisheksingh555-bootstrap-ui.netlify.app",
       image:
         "https://github.com/Abhisheksingh555/Bootstrap-UI/blob/main/assets/preview_01.png?raw=true",
-    },
-    {
-      title: "Property Rental System",
-      description:
-        "A MERN-based platform that allows homeowners to list rental properties and helps users find accommodations. Features include profile creation, listing management, user authentication, and a comment/rating system.",
-      tech: [
-        { icon: <SiReact className="text-blue-400" />, name: "React" },
-        { icon: <SiNodedotjs className="text-green-500" />, name: "Node.js" },
-        { icon: <SiExpress className="text-gray-500" />, name: "Express.js" },
-        { icon: <SiMongodb className="text-green-300" />, name: "MongoDB" },
-      ],
-      github: "#",
-      liveDemo: "#",
-      image: "/property-rental-screenshot.jpg",
     },
     {
       title: "LMS Platform",
