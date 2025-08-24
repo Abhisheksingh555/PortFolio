@@ -77,6 +77,23 @@ const Projects = () => {
         "https://github.com/Abhisheksingh555/PortFolio/blob/main/src/assets/lms-front-page.png?raw=true",
     },
     {
+      title: "E-commerce Product Card",
+      description:
+        "A modern and responsive E-commerce product card built with HTML, CSS, and JavaScript. It features product image previews, dynamic quantity updates, responsive design, and interactive UI components for a real shopping experience.",
+      tech: [
+        { icon: <SiHtml5 className="text-orange-500" />, name: "HTML5" },
+        { icon: <SiCss3 className="text-blue-500" />, name: "CSS3" },
+        {
+          icon: <SiJavascript className="text-yellow-400" />,
+          name: "JavaScript",
+        },
+      ],
+      github: "https://github.com/Abhisheksingh555/E-commerce-card",
+      liveDemo: "https://e-commerce-card-omega.vercel.app/",
+      image:
+        "https://github.com/Abhisheksingh555/E-commerce-card/blob/main/assets/preview-1.png?raw=true",
+    },
+    {
       title: "Abhii Counter App",
       description:
         "A simple yet elegant Counter App built with HTML, CSS, and JavaScript. It demonstrates DOM manipulation with increment, decrement, and reset functionality, along with error handling when the value reaches zero.",
@@ -93,7 +110,6 @@ const Projects = () => {
       image:
         "https://github.com/Abhisheksingh555/Dom/blob/main/assets/preview-1.png?raw=true",
     },
-
     {
       title: "Abhii Restaurant Website",
       description:
