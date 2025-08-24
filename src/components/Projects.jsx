@@ -73,8 +73,27 @@ const Projects = () => {
       ],
       github: "https://github.com/Abhisheksingh555/Online-Learning-Platform",
       liveDemo: "https://edu-stack-frontend.vercel.app/",
-      image: "https://github.com/Abhisheksingh555/PortFolio/blob/main/src/assets/lms-front-page.png?raw=true",
+      image:
+        "https://github.com/Abhisheksingh555/PortFolio/blob/main/src/assets/lms-front-page.png?raw=true",
     },
+    {
+      title: "Abhii Counter App",
+      description:
+        "A simple yet elegant Counter App built with HTML, CSS, and JavaScript. It demonstrates DOM manipulation with increment, decrement, and reset functionality, along with error handling when the value reaches zero.",
+      tech: [
+        { icon: <SiHtml5 className="text-orange-500" />, name: "HTML5" },
+        { icon: <SiCss3 className="text-blue-500" />, name: "CSS3" },
+        {
+          icon: <SiJavascript className="text-yellow-400" />,
+          name: "JavaScript",
+        },
+      ],
+      github: "https://github.com/Abhisheksingh555/Dom",
+      liveDemo: "https://abhisheksingh555.github.io/Dom/",
+      image:
+        "https://github.com/Abhisheksingh555/Dom/blob/main/assets/preview-1.png?raw=true",
+    },
+
     {
       title: "Abhii Restaurant Website",
       description:
